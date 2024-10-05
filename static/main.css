@@ -1,0 +1,77 @@
+#cookie-consent-banner {
+    font-family: Arial, sans-serif;
+}
+
+#topbar {
+    background-color: aqua; /* Background color for top bar */
+    height: 2cm; /* Height of the top bar */
+    display: flex; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    padding: 5px; /* Padding inside the top bar */
+}
+
+a.topbar {
+    display: inline-block; /* Block element for height and width */
+    height: 1.8cm; /* Height of the links */
+    width: 2cm; /* Width of the links */
+    background-color: greenyellow; /* Link background color */
+    color: blue; /* Link text color */
+    text-align: center; /* Center text */
+    line-height: 1.8cm; /* Center text vertically */
+    text-decoration: none; /* Remove underline */
+    margin: 1mm; /* Margin between links */
+    border: 2px solid black; /* Optional: Border for button-like appearance */
+    border-radius: 8px; /* Optional: Round edges */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover */
+}
+
+a.topbar:hover {
+    background-color: rgb(0, 255, 0); /* Hover background color */
+    color: darkblue; /* Hover text color */
+}
+
+/* Active link style */
+a.topbar.active {
+    background-color: lime; /* Active background color */
+    color: blue; /* Active text color */
+    border: 2px solid darkgreen; /* Optional: Different border for active state */
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: lime;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: yellow;
+}
+
+h4 {
+    color: white;
+}
+
+div.info {
+    background-image: url("minecraft.webp");
+}
+
+/* Styles for screens 600px and up */
+@media (min-width: 600px) {
+    #topbar {
+        height: 1.5cm; /* Adjust topbar height for larger screens */
+    }
+}
+
+/* Styles for screens 1024px and up */
+@media (min-width: 1024px) {
+    #topbar {
+        height: 1.5cm; /* Maintain topbar height for larger screens */
+    }
+}
